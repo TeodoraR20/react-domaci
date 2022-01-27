@@ -6,22 +6,22 @@ import "../styles/Contact.css";
 function Contact() {
   return <div className="contact">
 
-<div classame="leftSide" style={{ backgroundImage: `url(${Smoothie})`}}></div>
+<div className="leftSide" style={{ backgroundImage: `url(${Smoothie})`}}></div>
 <div className="rightSide">
 
 <h1>Contact us</h1>
 
 <form id="contact-form" method="POST">
 
-<label htmlFor>full name</label>
+<label htmlFor="name">Full name</label>
 <input name="name"  placeholder="Enter full name..." type="text"/>
 
 <label htmlFor="email">Email</label>
 <input name="email"  placeholder="Enter email..." type="email"/>
 
-<label htmlFor="message">fMessage</label>
+<label htmlFor="message">Message</label>
 <textarea rows="6" placeholder="Enter message" name="message" required></textarea>
-<button type="submit"Send message></button>
+<button type="submit">Send message</button>
 </form>
 
 </div>
