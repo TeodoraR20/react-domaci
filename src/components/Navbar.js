@@ -1,5 +1,5 @@
 import React, { useState }from 'react';
-import Logo from '../assets/smoothie.jpg';
+import Logo from '../assets/smoothiebar.jpg';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
 import "../styles/Home.css";
@@ -19,11 +19,12 @@ const [openLinks, setOpenLinks] = useState(false);
 
 <div className="rightSide">
 
-<Link to="/">Home</Link>
-<Link to="/menu">Menu</Link>
-<Link to="/about">About</Link>
-<Link to="/contact">Contact</Link>
+<Link to="/">Početna</Link>
+<Link to="/search">Meni</Link>
+<Link to="/about">O nama</Link>
+<Link to="/contact">Kontakt</Link>
 
+<Link to="/slider">Galerija</Link>
 
 
 </div>
