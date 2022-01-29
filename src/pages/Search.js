@@ -33,7 +33,7 @@ return Object.keys(item).some(key =>
 <div className="mb-3 col-4 mx-auto text-center">
 
 <h1>Meni</h1>
-<label className="form-lable h4">Search</label>
+<label className="form-lable h4">Pretraži meni</label>
 
 <input
 
