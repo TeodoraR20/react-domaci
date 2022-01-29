@@ -12,7 +12,7 @@ function Home() {
 <p></p>
 <p>Za svačiji ukus</p>
 <Link to="/search">
-<button>Narucite sada</button>
+<button>Meni</button>
 </Link>
      </div>
   </div>;
