@@ -21,10 +21,11 @@ const [openLinks, setOpenLinks] = useState(false);
 
 <Link to="/">Početna</Link>
 <Link to="/search">Meni</Link>
-<Link to="/about">O nama</Link>
+<Link to="/about">Smoothie</Link>
+<Link to="/slider">Galerija</Link>
 <Link to="/contact">Kontakt</Link>
 
-<Link to="/slider">Galerija</Link>
+
 
 
 </div>

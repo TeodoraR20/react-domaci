@@ -1,5 +1,5 @@
 import React from 'react';
-import Smoothie from '../assets/cafe.jpeg';
+import Smoothie from '../assets/barsmoothie.jpg';
 import "../styles/Contact.css";
 
 
@@ -9,19 +9,19 @@ function Contact() {
 <div className="leftSide" style={{ backgroundImage: `url(${Smoothie})`}}></div>
 <div className="rightSide">
 
-<h1>Contact us</h1>
+<h1>Kontakt strana</h1>
 
 <form id="contact-form" method="POST">
 
-<label htmlFor="name">Full name</label>
-<input name="name"  placeholder="Enter full name..." type="text"/>
+<label htmlFor="name">Ime i prezime</label>
+<input name="name"  placeholder="Unesite ime i prezime..." type="text"/>
 
 <label htmlFor="email">Email</label>
-<input name="email"  placeholder="Enter email..." type="email"/>
+<input name="email"  placeholder="Unesite email..." type="email"/>
 
-<label htmlFor="message">Message</label>
-<textarea rows="6" placeholder="Enter message" name="message" required></textarea>
-<button type="submit">Send message</button>
+<label htmlFor="message">Poruka</label>
+<textarea rows="6" placeholder="Unesite poruku" name="message" required></textarea>
+<button type="submit">Pošaljite poruku</button>
 </form>
 
 </div>

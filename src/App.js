@@ -25,9 +25,11 @@ function App() {
 <Route path="/search" element={<Search/>}/>
 
 <Route path="/about" element={<About/>}/>
+<Route path="/slider" element={<ImageSlider slides={ SliderData }/>}/>
+
 <Route path="/contact" element={<Contact/>}/>
 
-<Route path="/slider" element={<ImageSlider slides={ SliderData }/>}/>
+
 
 </Routes>
 <Footer/>
