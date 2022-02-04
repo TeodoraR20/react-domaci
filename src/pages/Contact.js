@@ -1,5 +1,5 @@
 import React from 'react';
-import Smoothie from '../assets/barsmoothie.jpg';
+import Smoothie from '../galerija/barsmoothie.jpg';
 import "../styles/Contact.css";
 
 

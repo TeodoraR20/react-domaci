@@ -12,7 +12,10 @@ const [openLinks, setOpenLinks] = useState(false);
 
 <div className="leftSide" id={openLinks ? "open" : "close"}>
 
-<img src={Logo} />
+<img src={Logo} 
+
+
+/>
 
 </div>
 

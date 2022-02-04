@@ -1,6 +1,6 @@
-import img1 from "../assets/bar.jpg";
-import img2 from "../assets/smoothiecokolada.jpg";
-import img3 from "../assets/cokoladamalina.jpg";
+import img1 from "../galerija/bar.jpg";
+import img2 from "../galerija/smoothiecokolada.jpg";
+import img3 from "../galerija/cokoladamalina.jpg";
 
 import slika1 from "../galerija/slika1.jpg";
 import slika2 from "../galerija/slika2.jpg";
@@ -76,4 +76,4 @@ image: slika3
 
 
 
-]
+];

@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/Search.css";
 
-import data from "./data";
+//import data from "./data";
+import data from "../components/data";
+
 
 const Search = () => {
 

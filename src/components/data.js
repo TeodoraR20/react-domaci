@@ -1,9 +1,9 @@
-import img2 from '../assets/cokoladajagoda2.jpg';
-import img1 from '../assets/smoothiecokolada.jpg';
-import img3 from '../assets/cokoladamalina.jpg';
+import img2 from '../galerija/cokoladajagoda2.jpg';
+import img1 from '../galerija/smoothiecokolada.jpg';
+import img3 from '../galerija/cokoladamalina.jpg';
 
-import img4 from '../assets/jagodabanana.jpg';
-import img5 from '../assets/banana.jpg';
+import img4 from '../galerija/jagodabanana.jpg';
+import img5 from '../galerija/banana.jpg';
 import img6 from '../galerija/borovnica.jpg';
 import img7 from '../galerija/kivi.jpg';
 import img8 from '../galerija/pomorandza.jpg';
